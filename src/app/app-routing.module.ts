@@ -11,9 +11,9 @@ import {
 
 const routes: Routes = [
   {
-    path: 'pages',
-    loadChildren: () => import('app/pages/pages.module')
-      .then(m => m.PagesModule),
+    path: 'admin',
+    loadChildren: () => import('app/admin/admin.module')
+      .then(m => m.AdminModule),
   },
   {
     path: 'auth',
@@ -45,8 +45,8 @@ const routes: Routes = [
       },
     ],
   },
-  { path: '', redirectTo: 'pages', pathMatch: 'full' },
-  { path: '**', redirectTo: 'pages' },
+  { path: '', redirectTo: 'admin', pathMatch: 'full' },
+  { path: '**', redirectTo: 'admin' },
 ];
 
 const config: ExtraOptions = {
