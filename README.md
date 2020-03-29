@@ -1,3 +1,14 @@
+# Important :heart:
+
+### Use this command to clone the project :
+
+- git clone -b preprod https://github.com/zouhairloucif/marketplace.git
+
+### Use this command for pushing changes the project branch:
+
+- git remote add origin https://github.com/zouhairloucif/marketplace.git <br/>
+- git push -u origin preprod
+
 # Market Shops  [![Build Status](https://travis-ci.org/akveo/ngx-admin.svg?branch=master)](https://travis-ci.org/akveo/ngx-admin)
 
 [Documentation](https://akveo.github.io/ngx-admin/?utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=themes) | [Installation Guidelines](https://akveo.github.io/ngx-admin/docs/getting-started/what-is-ngxadmin?utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=themes)
