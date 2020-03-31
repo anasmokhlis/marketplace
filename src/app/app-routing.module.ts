@@ -48,8 +48,8 @@ const routes: Routes = [
       },
     ],
   },
-  { path: '', redirectTo: 'admin', pathMatch: 'full' },
-  { path: '**', redirectTo: 'admin' },
+  { path: '', redirectTo: 'client', pathMatch: 'full' },
+  { path: '**', redirectTo: 'client' },
 ];
 
 const config: ExtraOptions = {

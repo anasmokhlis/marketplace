@@ -7,30 +7,25 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/client/dashboard',
     home: true,
   },
+  
   {
-    title: 'FEATURES',
-    group: true,
+    title: 'Products',
+    icon: 'flag-outline',
+    link: '/client/products',
+    home: true,
   },
   {
-    title: 'Auth',
-    icon: 'lock-outline',
-    children: [
-      {
-        title: 'Login',
-        link: '/auth/login',
-      },
-      {
-        title: 'Register',
-        link: '/auth/register',
-      },
-      {
-        title: 'Request Password',
-        link: '/auth/request-password',
-      },
-      {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
-      },
-    ],
+    title: 'Commandes',
+    icon: 'home-outline',
+    link: '/client/commandes',
+    home: true,
   },
+  {
+    title: 'Users',
+    icon: 'person-outline',
+    link: '/client/users',
+    home: true,
+  },
+  
+  
 ];
